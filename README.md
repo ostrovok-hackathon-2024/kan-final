@@ -14,9 +14,10 @@
 
 ## Как запускать
 
->
-> -- docker build -t kan-ml .
-> -- файлы добавляем в папку ./scv
-> -- docker run -it --rm -v ./csv/:/data kan-ml 
-> -- указываем путь до файла: /data/rates_clean.csv
->
+> docker build -t kan-ml .
+
+> файлы добавляем в папку ./scv
+
+> docker run -it --rm -v ./csv/:/data kan-ml  
+ 
+>указываем путь до файла: /data/rates_clean.csv
